@@ -1,0 +1,293 @@
+TSMC Voltmeter
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Info.plist" Info.plist
+cCopyStringsFile "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib"
+cProcessPCH "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.pth" "SMC Voltmeter_Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.o" "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.o" "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/MacOS/SMC Voltmeter" normal i386
+cTouch "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005066165700000000000001E5
+t1348867671
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c0000000050661666000000000003E878
+t1348867686
+s256120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005523DE4B00000000000066C0
+t1428414027
+s26304
+
+N/System/Library/PrivateFrameworks/GraphKit.framework/GraphKit
+c000000005523DEFD00000000000C8470
+t1428414205
+s820336
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.h
+c000000005535AEA100000000000002F0
+t1429581473
+s752
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m
+c000000005535B9E900000000000054CC
+t1429584361
+s21708
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/InfoPlist.strings
+c0000000049130934000000000000005C
+t1225984308
+s92
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib
+c000000005535ACA6000000000002EC1F
+t1429580966
+s191519
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRAreaDataSet.h
+c00000000491402F4000000000000054E
+t1226048244
+s1358
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRAxes.h
+c000000004917D6A00000000000001050
+t1226299040
+s4176
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRChartView.h
+c000000004916CE7A00000000000022B0
+t1226231418
+s8880
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRColumnDataSet.h
+c00000000491405320000000000000599
+t1226048818
+s1433
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRDataSet.h
+c000000004916CE820000000000001038
+t1226231426
+s4152
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRLineDataSet.h
+c000000005534ECE700000000000006BF
+t1429531879
+s1727
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRPieDataSet.h
+c000000004916CE8200000000000007DC
+t1226231426
+s2012
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/GRXYDataSet.h
+c00000000491402E000000000000008AE
+t1226048224
+s2222
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/SMC Voltmeter.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/SMC Voltmeter_Prefix.pch
+c0000000049130934000000000000009B
+t1225984308
+s155
+i<Cocoa/Cocoa.h>
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app
+t1429584362
+s136
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Info.plist
+t1429533303
+s1239
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/MacOS/SMC Voltmeter
+t1429584361
+s26332
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/PkgInfo
+t1429533303
+s8
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1429527417
+s92
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj/MainMenu.nib
+t1429581164
+s43484
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/SMC Voltmeter.png
+t2
+s0
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.o
+t1429584361
+s50360
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/SMC Voltmeter.LinkFileList
+c000000005534DB790000000000000107
+t1429527417
+s263
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.o
+t1429527417
+s2576
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/main.m
+c00000000491309340000000000000100
+t1225984308
+s256
+
+N/Users/peter/bin/System/Voltmeter/SMC Voltmeter/smc.h
+c000000005530E2200000000000000FA9
+t1429266976
+s4009
+
+N/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.pth
+t1429527417
+s14266876
+
+NInfo.plist
+c000000005534F21A0000000000000362
+t1429533210
+s866
+
+CBuild AST from "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m"
+r0
+
+CBuild AST from "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9066d48ff1e5ba41^b494d48ff1e5ba41^---0#1#0#--18"Check dependencies36"3D80399A-B8A0-47DF-9CBA-047DEB9BB3C7-
+
+CCompileC "build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.o" "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451277161.464072
+e451277161.825643
+r1
+xCompileC
+xbuild/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.o
+x/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m:553:23: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    sprintf(val->key, key);
+o    ~~~~~~~~~~~~~~~~~~^~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h:49:56: note: expanded from macro 'sprintf'
+o  __builtin___sprintf_chk (str, 0, __darwin_obsz(str), __VA_ARGS__)
+o                                                       ^
+o/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m:254:29: warning: unused variable 'returnValue' [-Wunused-variable]
+o    NSAppleEventDescriptor* returnValue = [downScriptAS executeAndReturnError:nil];
+o                            ^
+o/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m:275:29: warning: unused variable 'returnValue' [-Wunused-variable]
+o    NSAppleEventDescriptor* returnValue = [upScriptAS executeAndReturnError:nil];
+o                            ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.mc0ec7669f1e5ba41^dd5dd369f1e5ba41^-1022"/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m:553:23: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    sprintf(val->key, key);    ~~~~~~~~~~~~~~~~~~^~~~/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h:49:56: note: expanded from macro 'sprintf'  __builtin___sprintf_chk (str, 0, __darwin_obsz(str), __VA_ARGS__)                                                       ^/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m:254:29: warning: unused variable 'returnValue' [-Wunused-variable]    NSAppleEventDescriptor* returnValue = [downScriptAS executeAndReturnError:nil];                            ^/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m:275:29: warning: unused variable 'returnValue' [-Wunused-variable]    NSAppleEventDescriptor* returnValue = [upScriptAS executeAndReturnError:nil];                            ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-451277161#18446744073709551615#0#1(2@29"Expanded from macro 'sprintf'-451277161#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h0000000000000000^48#55#48#55#1519#0#21"Clang LLVM 1.0 Notice1(3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h0000000000000000^552#4#552#11#53#0#-1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/AppController.m0000000000000000^552#22#552#22#0#0#19"Format String Issue1(3@81"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/AppController.m0000000000000000^552#4#552#11#0#0#-2@29"Unused variable 'returnValue'-451277161#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/AppController.m0000000000000000^253#28#253#28#8713#0#19"Unused Entity Issue--2@29"Unused variable 'returnValue'-451277161#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@81"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/AppController.m0000000000000000^274#28#274#28#9351#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@81"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/AppController.m0000000000000000^3465"CompileC "build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.o" AppController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-generated-files.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-own-target-headers.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-all-target-headers.hmap" -iquote "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-project-headers.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/DerivedSources/i386" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/DerivedSources" "-F/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug" -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks -include "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch" -MMD -MT dependencies -MF "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.d" --serialize-diagnostics "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.dia" -c "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/AppController.m" -o "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/AppController.o"36"AF40A84A-5BAC-473B-B585-A7D1AFFC563E-
+
+CCompileC "build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.o" "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451220217.676145
+e451220217.698196
+r1
+xCompileC
+xbuild/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.o
+x/Users/peter/bin/System/Voltmeter/SMC Voltmeter/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/peter/bin/System/Voltmeter/SMC Voltmeter/main.mc22fadf912e5ba41^492eb3f912e5ba41^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/main.m0000000000000000^3411"CompileC "build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.o" main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-generated-files.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-own-target-headers.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-all-target-headers.hmap" -iquote "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-project-headers.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/DerivedSources/i386" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/DerivedSources" "-F/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug" -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks -include "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch" -MMD -MT dependencies -MF "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.dia" -c "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/main.m" -o "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/main.o"36"5CDEAFA1-DF5A-467A-B2B9-E5B747CAFC91-
+
+CCompileXIB "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib"
+s451273964.083056
+e451273964.510533
+r1
+xCompileXIB
+x/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib
+oibtoold(26199,0x10c5f2000) malloc: *** auto malloc[26199]: error: GC operation on unregistered thread. Thread registered implicitly. Break on auto_zone_thread_registration_error() to debug.
+o/* com.apple.ibtool.document.notices */
+o/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib:467: note: View is clipping its content [13]
+o/* com.apple.ibtool.document.warnings */
+o/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib:462: warning: Text Replacement on OS X versions prior to 10.6 (This property is ignored) [5]
+o/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib:462: warning: Automatic Spelling Correction on OS X versions prior to 10.6 (This property is ignored) [5]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compiling /Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xibfc5015ece4e5ba41^78b382ece4e5ba41^-219"/* com.apple.ibtool.document.notices *//* com.apple.ibtool.document.warnings */Command /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool emitted errors but did not return a nonzero exit code to indicate failure5(21%IDEActivityLogMessage2@123"GC operation on unregistered thread. Thread registered implicitly. Break on auto_zone_thread_registration_error() to debug.7"Ibtoold451273964#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@52"file://localhost/ibtoold(26199,0x10c5f2000)%20malloc0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#36"Interface Builder XIB Compiler Error--2@28"View is clipping its content-451273964#18446744073709551615#0#-0#-3@92"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/English.lproj/MainMenu.xib0000000000000000^466#18446744073709551615#466#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@74"Text Replacement on OS X versions prior to 10.6 (This property is ignored)47"Text Replacement on OS X versions prior to 10.6451273964#18446744073709551615#0#-1#-3@92"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/English.lproj/MainMenu.xib0000000000000000^461#18446744073709551615#461#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--2@87"Automatic Spelling Correction on OS X versions prior to 10.6 (This property is ignored)60"Automatic Spelling Correction on OS X versions prior to 10.6451273964#18446744073709551615#0#-1#-3@92"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/English.lproj/MainMenu.xib0000000000000000^461#18446744073709551615#461#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--2@139"Command /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool emitted errors but did not return a nonzero exit code to indicate failure-451273964#18446744073709551615#0#-2#--36"Interface Builder XIB Compiler Error--0#0#0#-19%DVTDocumentLocation4@92"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/English.lproj/MainMenu.xib0000000000000000^631"CompileXIB English.lproj/MainMenu.xib    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/English.lproj/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"1B78D553-86B3-4A7E-82B1-51AA63400C35-
+
+CCopyStringsFile "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s451220217.161839
+e451220217.162960
+r1
+xCopyStringsFile
+x/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.stringsdd7a29f912e5ba41^0fb929f912e5ba41^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/English.lproj/InfoPlist.strings0000000000000000^427"CopyStringsFile "build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources/English.lproj" -- English.lproj/InfoPlist.strings36"A3600164-B77A-42A5-8BEF-6CADE99D0D93-
+
+CCpResource "SMC Voltmeter.png" "build/Debug/SMC Voltmeter.app/Contents/Resources/SMC Voltmeter.png"
+s451226103.953121
+e451226103.955459
+r0
+xCpResource
+xSMC Voltmeter.png
+xbuild/Debug/SMC Voltmeter.app/Contents/Resources/SMC Voltmeter.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug/SMC Voltmeter.app/Contents/Resources/SMC Voltmeter.pngdd0bf4f729e5ba41^5f98f4f729e5ba41^--1(21%IDEActivityLogMessage2@99"error: /Users/peter/bin/System/Voltmeter/SMC Voltmeter/SMC Voltmeter.png: No such file or directory-451226103#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#11"PBXCp Error--0#0#0#-19%DVTDocumentLocation4@136"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/build/Debug/SMC%20Voltmeter.app/Contents/Resources/SMC%20Voltmeter.png000000000080d041^436"CpResource "SMC Voltmeter.png" "build/Debug/SMC Voltmeter.app/Contents/Resources/SMC Voltmeter.png"    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/SMC Voltmeter.png" "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Resources"36"86035FE2-BBB6-4F34-8A5E-EBF53E27CE95-
+
+CLd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/MacOS/SMC Voltmeter" normal i386
+s451277161.825738
+e451277162.000378
+r1
+xLd
+x/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/MacOS/SMC Voltmeter
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Link /Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/MacOS/SMC Voltmetereb71d369f1e5ba41^c119006af1e5ba41^---0#0#0#--1024"Ld "build/Debug/SMC Voltmeter.app/Contents/MacOS/SMC Voltmeter" normal i386    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug" "-F/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug" -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks -filelist "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/Objects-normal/i386/SMC Voltmeter.LinkFileList" -mmacosx-version-min=10.8 -fobjc-link-runtime -framework IOKit -framework Cocoa -framework GraphKit -o "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/MacOS/SMC Voltmeter"36"A41D0D05-B9D0-455F-AA72-C167BE727F62-
+
+CProcessInfoPlistFile "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Info.plist" Info.plist
+s451226103.951770
+e451226103.952980
+r1
+xProcessInfoPlistFile
+x/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist4bb1f3f729e5ba41^d68cf4f729e5ba41^--1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 17. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 17. This string must be a uniform type identifier451226103#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@76"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/Info.plist0000000000000000^431"ProcessInfoPlistFile "build/Debug/SMC Voltmeter.app/Contents/Info.plist" Info.plist    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app/Contents/Info.plist"36"37B15299-FD6F-4B89-9625-11D0D4EE8086-
+
+CProcessPCH "/Users/peter/Library/Developer/Xcode/DerivedData/SMC_Voltmeter-bhmkvfljfnyammcywomrpcwfejxs/Index/PrecompiledHeaders/SMC Voltmeter_Prefix-fqxdtfymvtvnnyazxghduogkawrv_ast/SMC Voltmeter_Prefix.pch.pth" "SMC Voltmeter_Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.pth" "SMC Voltmeter_Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451220217.202543
+e451220217.676050
+r1
+xProcessPCH
+x/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.pth
+xSMC Voltmeter_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile SMC Voltmeter_Prefix.pch06f733f912e5ba41^7b11adf912e5ba41^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/peter/bin/System/Voltmeter/SMC%20Voltmeter/SMC%20Voltmeter_Prefix.pch0000000000000000^3506"ProcessPCH "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.pth" "SMC Voltmeter_Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-generated-files.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-own-target-headers.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-all-target-headers.hmap" -iquote "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/SMC Voltmeter-project-headers.hmap" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/DerivedSources/i386" "-I/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/SMC Voltmeter.build/Debug/SMC Voltmeter.build/DerivedSources" "-F/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug" -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks --serialize-diagnostics "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.dia" -c "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/SMC Voltmeter_Prefix.pch" -o "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SMC Voltmeter_Prefix-furhjlauzyuenldbsvjjzlwepknv/SMC Voltmeter_Prefix.pch.d"36"C6B86365-6520-4EAF-9223-05C170F8BC7F-
+
+CTouch "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app"
+s451277162.000598
+e451277162.004561
+r1
+xTouch
+x/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app9832006af1e5ba41^a12b016af1e5ba41^---0#0#0#--197"Touch "build/Debug/SMC Voltmeter.app"    cd "/Users/peter/bin/System/Voltmeter/SMC Voltmeter"    /usr/bin/touch -c "/Users/peter/bin/System/Voltmeter/SMC Voltmeter/build/Debug/SMC Voltmeter.app"36"9120DB2B-82AC-42D3-A71A-D9FABB4B7E4E-
+

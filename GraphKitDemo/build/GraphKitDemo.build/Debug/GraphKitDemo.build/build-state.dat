@@ -1,0 +1,273 @@
+TGraphKitDemo
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.pth GraphKitDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.o /Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.o /Users/peter/bin/System/Voltmeter/GraphKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/MacOS/GraphKitDemo normal i386
+cTouch /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005066165700000000000001E5
+t1348867671
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c0000000050661666000000000003E878
+t1348867686
+s256120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005523DE4B00000000000066C0
+t1428414027
+s26304
+
+N/System/Library/PrivateFrameworks/GraphKit.framework/GraphKit
+c000000005523DEFD00000000000C8470
+t1428414205
+s820336
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.h
+c000000005530E47C0000000000000239
+t1429267580
+s569
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m
+c000000005534DA9B00000000000022D5
+t1429527195
+s8917
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/InfoPlist.strings
+c0000000049130934000000000000005C
+t1225984308
+s92
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib
+c000000005530E2780000000000027FCA
+t1429267064
+s163786
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRAreaDataSet.h
+c00000000491402F4000000000000054E
+t1226048244
+s1358
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRAxes.h
+c000000004917D6A00000000000001050
+t1226299040
+s4176
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRChartView.h
+c000000004916CE7A00000000000022B0
+t1226231418
+s8880
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRColumnDataSet.h
+c00000000491405320000000000000599
+t1226048818
+s1433
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRDataSet.h
+c000000004916CE820000000000001038
+t1226231426
+s4152
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRLineDataSet.h
+c000000004914047400000000000006BF
+t1226048628
+s1727
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRPieDataSet.h
+c000000004916CE8200000000000007DC
+t1226231426
+s2012
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GRXYDataSet.h
+c00000000491402E000000000000008AE
+t1226048224
+s2222
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/GraphKitDemo_Prefix.pch
+c0000000049130934000000000000009B
+t1225984308
+s155
+i<Cocoa/Cocoa.h>
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app
+t1429527180
+s102
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Info.plist
+t1429526824
+s1177
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/MacOS/GraphKitDemo
+t1429527180
+s25856
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/PkgInfo
+t1429526824
+s8
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1429526824
+s92
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj/MainMenu.nib
+t1429526824
+s39472
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.o
+t1429527180
+s43940
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/GraphKitDemo.LinkFileList
+c000000005534D9280000000000000101
+t1429526824
+s257
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.o
+t1429526825
+s2576
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/main.m
+c00000000491309340000000000000100
+t1225984308
+s256
+
+N/Users/peter/bin/System/Voltmeter/GraphKitDemo/smc.h
+c000000005530E2200000000000000FA9
+t1429266976
+s4009
+
+N/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.pth
+t1429526825
+s14266860
+
+NInfo.plist
+c00000000491309340000000000000357
+t1225984308
+s855
+
+CBuild AST from /Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m
+r0
+
+CBuild AST from /Users/peter/bin/System/Voltmeter/GraphKitDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8789ee1c12e5ba41^22c3ee1c12e5ba41^---0#1#0#--18"Check dependencies36"496F2A3B-53A6-4980-95B7-02E9A63B7C2C-
+
+CCompileC build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.o /Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451219996.933926
+e451219996.982352
+r1
+xCompileC
+xbuild/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.o
+x/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m:247:23: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    sprintf(val->key, key);
+o    ~~~~~~~~~~~~~~~~~~^~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h:49:56: note: expanded from macro 'sprintf'
+o  __builtin___sprintf_chk (str, 0, __darwin_obsz(str), __VA_ARGS__)
+o                                                       ^
+o/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m:78:26: warning: unused variable 'tim2' [-Wunused-variable]
+o    struct timespec tim, tim2;
+o                         ^
+o/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m:93:15: warning: unused variable 'thisTimeDouble' [-Wunused-variable]
+o    NSNumber* thisTimeDouble = [NSNumber numberWithDouble:(unsigned)time(NULL)];
+o              ^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.me02aef1c12e5ba41^6c7bfb1c12e5ba41^-942"/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m:247:23: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    sprintf(val->key, key);    ~~~~~~~~~~~~~~~~~~^~~~/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h:49:56: note: expanded from macro 'sprintf'  __builtin___sprintf_chk (str, 0, __darwin_obsz(str), __VA_ARGS__)                                                       ^/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m:78:26: warning: unused variable 'tim2' [-Wunused-variable]    struct timespec tim, tim2;                         ^/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m:93:15: warning: unused variable 'thisTimeDouble' [-Wunused-variable]    NSNumber* thisTimeDouble = [NSNumber numberWithDouble:(unsigned)time(NULL)];              ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@60"Format string is not a string literal (potentially insecure)-451219996#18446744073709551615#0#1(2@29"Expanded from macro 'sprintf'-451219996#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h0000000000000000^48#55#48#55#1519#0#21"Clang LLVM 1.0 Notice1(3@142"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/secure/_stdio.h0000000000000000^246#4#246#11#53#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m0000000000000000^246#22#246#22#0#0#19"Format String Issue1(3@78"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m0000000000000000^246#4#246#11#0#0#-2@22"Unused variable 'tim2'-451219996#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m0000000000000000^77#25#77#25#2171#0#19"Unused Entity Issue--2@32"Unused variable 'thisTimeDouble'-451219996#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m0000000000000000^92#14#92#14#2603#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m0000000000000000^3396"CompileC build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.o AppController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-generated-files.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-own-target-headers.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-all-target-headers.hmap -iquote /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-project-headers.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/DerivedSources/i386 -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/DerivedSources -F/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch -MMD -MT dependencies -MF /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.d --serialize-diagnostics /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.dia -c /Users/peter/bin/System/Voltmeter/GraphKitDemo/AppController.m -o /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/AppController.o36"F056A8A0-7BE3-4D26-B31E-715A4310B4A0-
+
+CCompileC build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.o /Users/peter/bin/System/Voltmeter/GraphKitDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451219625.879607
+e451219625.900171
+r1
+xCompileC
+xbuild/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.o
+x/Users/peter/bin/System/Voltmeter/GraphKitDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/peter/bin/System/Voltmeter/GraphKitDemo/main.mff40e1a910e5ba41^9772e6a910e5ba41^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/main.m0000000000000000^3342"CompileC build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-generated-files.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-own-target-headers.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-all-target-headers.hmap -iquote /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-project-headers.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/DerivedSources/i386 -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/DerivedSources -F/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks -include /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch -MMD -MT dependencies -MF /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.dia -c /Users/peter/bin/System/Voltmeter/GraphKitDemo/main.m -o /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/main.o36"26B3537C-41C6-44A1-8710-E01A2D33C85B-
+
+CCompileXIB /Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib
+s451219624.832563
+e451219625.278543
+r1
+xCompileXIB
+x/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib
+oibtoold(21684,0x10e73a000) malloc: *** auto malloc[21684]: error: GC operation on unregistered thread. Thread registered implicitly. Break on auto_zone_thread_registration_error() to debug.
+o/* com.apple.ibtool.document.warnings */
+o/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib:462: warning: Text Replacement on OS X versions prior to 10.6 (This property is ignored) [5]
+o/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib:462: warning: Automatic Spelling Correction on OS X versions prior to 10.6 (This property is ignored) [5]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compiling /Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib662dd5a810e5ba41^f84f47a910e5ba41^-180"/* com.apple.ibtool.document.warnings */Command /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool emitted errors but did not return a nonzero exit code to indicate failure4(21%IDEActivityLogMessage2@123"GC operation on unregistered thread. Thread registered implicitly. Break on auto_zone_thread_registration_error() to debug.7"Ibtoold451219625#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@52"file://localhost/ibtoold(21684,0x10e73a000)%20malloc0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#36"Interface Builder XIB Compiler Error--2@74"Text Replacement on OS X versions prior to 10.6 (This property is ignored)47"Text Replacement on OS X versions prior to 10.6451219625#18446744073709551615#0#-1#-3@89"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib0000000000000000^461#18446744073709551615#461#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--2@87"Automatic Spelling Correction on OS X versions prior to 10.6 (This property is ignored)60"Automatic Spelling Correction on OS X versions prior to 10.6451219625#18446744073709551615#0#-1#-3@89"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib0000000000000000^461#18446744073709551615#461#18446744073709551615#18446744073709551615#0#21"Attribute Unavailable--2@139"Command /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool emitted errors but did not return a nonzero exit code to indicate failure-451219625#18446744073709551615#0#-2#--36"Interface Builder XIB Compiler Error--0#0#0#-19%DVTDocumentLocation4@89"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib0000000000000000^621"CompileXIB English.lproj/MainMenu.xib    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj/MainMenu.nib /Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"73165AD8-A044-47D3-AA8C-B0248847C8E9-
+
+CCopyStringsFile /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s451219624.832558
+e451219624.834997
+r1
+xCopyStringsFile
+x/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.stringsba2dd5a810e5ba41^8bc3d5a810e5ba41^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/English.lproj/InfoPlist.strings0000000000000000^417"CopyStringsFile build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Resources/English.lproj -- English.lproj/InfoPlist.strings36"DD07E700-0B29-49D1-BF69-80F152C93600-
+
+CLd /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/MacOS/GraphKitDemo normal i386
+s451219996.982422
+e451219997.012905
+r1
+xLd
+x/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/MacOS/GraphKitDemo
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/MacOS/GraphKitDemo395ffc1c12e5ba41^b6bb031d12e5ba41^---0#0#0#--1000"Ld build/Debug/GraphKitDemo.app/Contents/MacOS/GraphKitDemo normal i386    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug -F/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks -filelist /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/Objects-normal/i386/GraphKitDemo.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework IOKit -framework Cocoa -framework GraphKit -o /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/MacOS/GraphKitDemo36"B042E845-42B9-4072-81A2-DA69E0C51D7A-
+
+CProcessInfoPlistFile /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Info.plist Info.plist
+s451219624.830061
+e451219624.832381
+r1
+xProcessInfoPlistFile
+x/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist1a89d4a810e5ba41^d717d5a810e5ba41^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/Info.plist0000000000000000^417"ProcessInfoPlistFile build/Debug/GraphKitDemo.app/Contents/Info.plist Info.plist    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    builtin-infoPlistUtility Info.plist -genpkginfo /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app/Contents/Info.plist36"09E7A28E-95B9-4BD3-A2A4-D963514084DC-
+
+CProcessPCH /Users/peter/Library/Developer/Xcode/DerivedData/GraphKitDemo-catoagvexfjpbhgrjvwycadjeekv/Index/PrecompiledHeaders/GraphKitDemo_Prefix-eyjytdrgvhvnzwcrbqnmjfaergha_ast/GraphKitDemo_Prefix.pch.pth GraphKitDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.pth GraphKitDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451219625.278695
+e451219625.879503
+r1
+xProcessPCH
+x/var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.pth
+xGraphKitDemo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Precompile GraphKitDemo_Prefix.pch556947a910e5ba41^4e27e1a910e5ba41^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/peter/bin/System/Voltmeter/GraphKitDemo/GraphKitDemo_Prefix.pch0000000000000000^3440"ProcessPCH /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.pth GraphKitDemo_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-generated-files.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-own-target-headers.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-all-target-headers.hmap -iquote /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/GraphKitDemo-project-headers.hmap -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/DerivedSources/i386 -I/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/GraphKitDemo.build/Debug/GraphKitDemo.build/DerivedSources -F/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/PrivateFrameworks --serialize-diagnostics /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.dia -c /Users/peter/bin/System/Voltmeter/GraphKitDemo/GraphKitDemo_Prefix.pch -o /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/k3/hj1khgld02380fcts0h5nb2c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GraphKitDemo_Prefix-edgjrmgvpxoeodeoequgeqfzfoky/GraphKitDemo_Prefix.pch.d36"FAF022A4-D28B-4006-BAE2-7D506FD9D00A-
+
+CTouch /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app
+s451219997.013079
+e451219997.016461
+r1
+xTouch
+x/Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Touch /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app9163031d12e5ba41^6137041d12e5ba41^---0#0#0#--187"Touch build/Debug/GraphKitDemo.app    cd /Users/peter/bin/System/Voltmeter/GraphKitDemo    /usr/bin/touch -c /Users/peter/bin/System/Voltmeter/GraphKitDemo/build/Debug/GraphKitDemo.app36"66FA9BBE-CDB5-4DDB-B57E-0FA4A209BDD7-
+

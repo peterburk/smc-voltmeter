@@ -1,0 +1,1704 @@
+<html><head>
+<body>
+<center><h1>SMC Keys</h1></center>
+<center><h2>K3 Version: 1.30f1
+</h2></center>
+<p>
+<table cellpadding="2" cellspacing="2" border="1" width="100%"> 
+<tr>
+<th align=middle>KEY</th>
+<th align=middle>TYPE</th>
+<th align=middle>SIZE</th>
+<th align=middle>ATTRIBUTES</th>
+<th align=left>DESCRIPTION</th>
+</tr>
+<tr>
+<td align="middle"><code>#KEY</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Number of Keys </code>
+</tr>
+<tr>
+<td align="middle"><code>+LKS</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code><pre>Returns whether or not lock bits are set.  Returns 3 bit value, where<BR> each bit represents one of the three lock bit regions.  1 => set. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>AL! </code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_RW</code>
+<td align="left"><code><pre>Each "1" bit in gui8ALSForced indicates that a certain writable ALS<BR> variable has been overridden (i.e., forced) by the host OS or <BR> host diagnostics, and that variable should not be written by the SMC <BR> again until the applicable bit is cleared in gui8ALSForced.<BR> Currently, the used bits are:<BR>    Bit 0 protects gui16ALSScale<BR>    Bit 1 protects ui16Chan0 and ui16Chan1 of aalsvALSData<BR>    Bit 2 protects gui16ALSLux<BR>    Bit 3 protects fHighGain of aalsvALSData<BR>    Bit 4 protects gai16ALSTemp[MAX_ALS_SENSORS]<BR> All other bits are reserved and should be cleared to 0. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>ALA0</code>
+<td align="middle"><code>{ala</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS analog lux calculation information </code>
+</tr>
+<tr>
+<td align="middle"><code>ALA1</code>
+<td align="middle"><code>{ala</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS analog lux calculation information </code>
+</tr>
+<tr>
+<td align="middle"><code>ALA2</code>
+<td align="middle"><code>{ala</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS analog lux calculation information </code>
+</tr>
+<tr>
+<td align="middle"><code>ALA3</code>
+<td align="middle"><code>{ala</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS analog lux calculation information </code>
+</tr>
+<tr>
+<td align="middle"><code>ALA4</code>
+<td align="middle"><code>{ala</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS analog lux calculation information </code>
+</tr>
+<tr>
+<td align="middle"><code>ALA5</code>
+<td align="middle"><code>{ala</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS analog lux calculation information </code>
+</tr>
+<tr>
+<td align="middle"><code>ALAT</code>
+<td align="middle"><code>{alt</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>analog lux calculation thresholds </code>
+</tr>
+<tr>
+<td align="middle"><code>ALI0</code>
+<td align="middle"><code>{ali</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>ALS Sensor 0 Info </code>
+</tr>
+<tr>
+<td align="middle"><code>ALI1</code>
+<td align="middle"><code>{ali</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>ALS Sensor 1 Info </code>
+</tr>
+<tr>
+<td align="middle"><code>ALRV</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>ALS/SIL version ID for the application program interface </code>
+</tr>
+<tr>
+<td align="middle"><code>ALSC</code>
+<td align="middle"><code>{alc</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>ALS Configuration (some fields of which are used by the SIL<BR> on both ALS and non-ALS systems) <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>ALSF</code>
+<td align="middle"><code>fp1f</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS Scale Factor for SIL in 1.15 fixed-point representation </code>
+</tr>
+<tr>
+<td align="middle"><code>ALSL</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Average ALS Ambient Light Reading in Lux </code>
+</tr>
+<tr>
+<td align="middle"><code>ALT0</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS Ambient Light Sensor Temperature for sensor 0 (deg C, FP16.0) </code>
+</tr>
+<tr>
+<td align="middle"><code>ALT1</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS Ambient Light Sensor Temperature for sensor 1 (deg C, FP16.0) </code>
+</tr>
+<tr>
+<td align="middle"><code>ALTH</code>
+<td align="middle"><code>{alr</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ALS Ambient Light Sensor Thermal Coefficient and baseline temperature </code>
+</tr>
+<tr>
+<td align="middle"><code>ALV0</code>
+<td align="middle"><code>{alv</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Latest ambient light reading from sensor 0  </code>
+</tr>
+<tr>
+<td align="middle"><code>ALV1</code>
+<td align="middle"><code>{alv</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Latest ambient light reading from sensor 1 </code>
+</tr>
+<tr>
+<td align="middle"><code>AUPO</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Auto Power-on key.  If set to 1, system will be automatically <BR> powered on by SMC after next transition to S5/G3HOT. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>BATP</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>System currently being powered by battery. Used by FW TDM. Needed on all platforms.  </code>
+</tr>
+<tr>
+<td align="middle"><code>BNum</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>Maximum number of supported batteries. Architecturally visiable key used by EFIUtil. Needed on all platforms.   </code>
+</tr>
+<tr>
+<td align="middle"><code>BSIn</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code><pre>Battery System info byte. BSIn[7:0]<BR> 0=Charging<BR> 1=AC present<BR> 2=AC presence changed<BR> 3=OS Stop Charge<BR> 4=OS Calibration Req<BR> 5=BatteryQueryInProgress<BR> 6=batOK<BR> 7=adcInProgress<BR> Architecturally visiable key used by EFIUtil. Needed on all platforms.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>CLKT</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_FUNC_RW</code>
+<td align="left"><code><pre>SMC local time in seconds since midnight<BR> Used to control SIL brightness on some systems based on time of day. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>CRCB</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>Returns a CRC32 value representing all of UserBootMAT. </code>
+</tr>
+<tr>
+<td align="middle"><code>CRCU</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code>Generates a CRC32 value representing all of UserMAT. </code>
+</tr>
+<tr>
+<td align="middle"><code>DPLM</code>
+<td align="middle"><code>{lim</code>
+<td align="middle"><code></code>
+<td align="left"><code> KPRIV_FUNC_W</code>
+<td align="left"><code>Tests Plimit plumbing from SMC to OS.  3 bytes input are Cpu Plimit, Gpu Plimit, Mem Plimit. </code>
+</tr>
+<tr>
+<td align="middle"><code>EPCA</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>EPM CV Start Address  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPCF</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code>EPM CV Flash Status  1=flashed  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPCI</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>EPM CV Configuration ID  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPCV</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>EPM CV Configuration Version  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPMA</code>
+<td align="middle"><code>ch8*</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code>EPM Meta Table Address  First set EPMI and then read EPMA  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPMI</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>EPM Meta Table Index  First set EPMI and then read EPMA  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPUA</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>EPM UV Start Address  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPUF</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code>EPM UV Flash Status. 1=flashed  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPUI</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>EPM UV Configuration ID  </code>
+</tr>
+<tr>
+<td align="middle"><code>EPUV</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>EPM UV Configuration Version  </code>
+</tr>
+<tr>
+<td align="middle"><code>EVCT</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code><pre>Event Trace Buffer. Returns a 2 byte value. The first byte is the number of events<BR> that have been put into the trace buffer since the last time this key was read and the second<BR> is the index into the buffer for the next event to be written. <BR> If they are not the same, then the trace buffer has been overwritten and more then 16 events <BR> have occured since the last time it was read  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>EVMD</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>Event Mode. Used for debug to determine if we should reset SMC or jump into flasher on<BR> a detected SMC health check. If key is written to a value of 0x87126534, then we will jump into the <BR> flasher on any SMC health check. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>EVRD</code>
+<td align="middle"><code>ch8*</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code><pre>Event Trace Buffer Read. 32 byte read from event trace buffer. Issue key read 4 times to<BR> read entire event trace buffer  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>F0Ac</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan0 Actual RPM, DIAG_LOG </code>
+</tr>
+<tr>
+<td align="middle"><code>F0ID</code>
+<td align="middle"><code>{fds</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Fan0 Description </code>
+</tr>
+<tr>
+<td align="middle"><code>F0Mn</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan0 Minimum RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F0Mt</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan0 Max calculated target RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F0Mx</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan0 Maximum RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F0Sf</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan0 Safe RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F0Tg</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Modify this in conjunction with Fan force bit [0] to set fan speed.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>F1Ac</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan1 Actual RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F1ID</code>
+<td align="middle"><code>{fds</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Fan1 Description </code>
+</tr>
+<tr>
+<td align="middle"><code>F1Mn</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan1 Minimum RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F1Mt</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan1 Max calculated target RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F1Mx</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan1 Maximum RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F1Sf</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan1 Safe RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F1Tg</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Modify this in conjunction with Fan force bit [1] to set fan speed.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>F2Ac</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan2 Actual RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F2ID</code>
+<td align="middle"><code>{fds</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Fan2 Description </code>
+</tr>
+<tr>
+<td align="middle"><code>F2Mn</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan2 Minimum RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F2Mt</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan2 Max calculated target RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F2Mx</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan2 Maximum RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F2Sf</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Fan2 Safe RPM </code>
+</tr>
+<tr>
+<td align="middle"><code>F2Tg</code>
+<td align="middle"><code>fpe2</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Modify this in conjunction with Fan force bit [2] to set fan speed.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>FNum</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Number of supported fans. </code>
+</tr>
+<tr>
+<td align="middle"><code>FPhz</code>
+<td align="middle"><code>si16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> KPRIV_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Programmable Fan Phase offset affects all fans.  Signed value<BR>  has legal values between 0 and 360.  Default is 360 (no change). <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>FS! </code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Fan force bits. FS![15:0] Setting bit to 1 allows for external control over fan speed target and<BR> prevents thermal manager from actively overidding value set via key access. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>GCID</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Graphics Card Identification.  Communicates the graphics<BR> card's Device ID (DID) and Vendor ID (VID) to the SMC so that the SMC<BR> can communicate with that graphics card's thermal sensor(s).  The 32-bit<BR> value that is written to this key contains the graphics card's DID in<BR> its most-significant 16 bits, and the VID occupies the least-significant<BR> 16-bits. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>GPU!</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>MXM GPU Force bits[7:0]: GPU![0] = GTHR force override<BR> bit. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>GTHR</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>MXM_GPU_AC_BATT_L. Drive SMC output with written value.<BR> Needs to be written in conjunction with GPU![0].  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>HBWK</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_RW</code>
+<td align="left"><code>Allows a one-time lid-open event to "wake" the system from S5. </code>
+</tr>
+<tr>
+<td align="middle"><code>HDBS</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Hang Detect. A/B switch value </code>
+</tr>
+<tr>
+<td align="middle"><code>HDST</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Hang Detect. Current System State Machine value </code>
+</tr>
+<tr>
+<td align="middle"><code>HDSW</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Hang Detect. {Sleep[15:0]|Wake[15:0]} Count. </code>
+</tr>
+<tr>
+<td align="middle"><code>IC0C</code>
+<td align="middle"><code>fp79</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 core current.  </code>
+</tr>
+<tr>
+<td align="middle"><code>ID0R</code>
+<td align="middle"><code>fp5b</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC In S0 rail current.  </code>
+</tr>
+<tr>
+<td align="middle"><code>ID5R</code>
+<td align="middle"><code>fp4c</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC In S5 rail current.  </code>
+</tr>
+<tr>
+<td align="middle"><code>IG0R</code>
+<td align="middle"><code>fp4c</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU 0 rail current.  </code>
+</tr>
+<tr>
+<td align="middle"><code>IG0r</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU 0 rail current. Raw ADC input value.  </code>
+</tr>
+<tr>
+<td align="middle"><code>LAcN</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> KPRIV_FUNC_W</code>
+<td align="left"><code>Queue up ACPI Notify byte </code>
+</tr>
+<tr>
+<td align="middle"><code>LAtN</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> KPRIV_FUNC_W</code>
+<td align="left"><code>Queue up Proprietary ATTN_IF Notify byte </code>
+</tr>
+<tr>
+<td align="middle"><code>LCCN</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>LPC Debug counter data: Num of Acpi Notifies </code>
+</tr>
+<tr>
+<td align="middle"><code>LCCQ</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>LPC Debug counter data: Num of Acpi Queries </code>
+</tr>
+<tr>
+<td align="middle"><code>LCKA</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>LPC Debug counter data: Num of Key Accesses </code>
+</tr>
+<tr>
+<td align="middle"><code>LCSA</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>LPC Debug counter data: Num of Smb Accesses </code>
+</tr>
+<tr>
+<td align="middle"><code>LCTN</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>LPC Debug counter data: Num of Attn Notifies </code>
+</tr>
+<tr>
+<td align="middle"><code>LCTQ</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>LPC Debug counter data: Num of Attn Queries </code>
+</tr>
+<tr>
+<td align="middle"><code>LDSP</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_W</code>
+<td align="left"><code>When OS X sleeps due to a lid-closed event, it writes a 1 in this key. </code>
+</tr>
+<tr>
+<td align="middle"><code>LS! </code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_RW</code>
+<td align="left"><code><pre>Each "1" bit in gui8LmsForced indicates that a certain writable SIL<BR> variable has been overridden (i.e., forced) by the host OS or <BR> host diagnostics, and that variable should not be written by the SMC <BR> again until the applicable bit is cleared in gui8LmsForced.<BR> Currently, this is just a place-holder.  All bits are reserved and <BR> should be cleared to 0. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>LSCF</code>
+<td align="middle"><code>{lsc</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LmsConfig structure provides overall system-specific config info for the SIL. </code>
+</tr>
+<tr>
+<td align="middle"><code>LSDD</code>
+<td align="middle"><code>{lsd</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LmsDwell structures provide dwell fade-down configuration </code>
+</tr>
+<tr>
+<td align="middle"><code>LSDU</code>
+<td align="middle"><code>{lsd</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LmsDwell structures provide dwell fade-up configuration </code>
+</tr>
+<tr>
+<td align="middle"><code>LSFD</code>
+<td align="middle"><code>{lsf</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LmsFlare structures provide flare config for non-breathing fade-down </code>
+</tr>
+<tr>
+<td align="middle"><code>LSFU</code>
+<td align="middle"><code>{lsf</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LmsFlare structures provide flare config for non-breathing fade-up </code>
+</tr>
+<tr>
+<td align="middle"><code>LSLB</code>
+<td align="middle"><code>{pwm</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>SIL's PWM "Full On" value (usually 0xFFFF, used for power switch override) </code>
+</tr>
+<tr>
+<td align="middle"><code>LSLF</code>
+<td align="middle"><code>{pwm</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>SIL's PWM "Off" value (usually 0) </code>
+</tr>
+<tr>
+<td align="middle"><code>LSLN</code>
+<td align="middle"><code>{pwm</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>SIL's PWM "On" value (varies per system) </code>
+</tr>
+<tr>
+<td align="middle"><code>LSOF</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>Reads TRUE (1) if the SIL is Off </code>
+</tr>
+<tr>
+<td align="middle"><code>LSOO</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>ui8LmsSetOnOff is a function called by the OS to set<BR> the SIL to either on (max brightness, flag=1) or off (flag = 0). <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>LSPV</code>
+<td align="middle"><code>{pwm</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>SIL's Current PWM value </code>
+</tr>
+<tr>
+<td align="middle"><code>LSRB</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>ui8LmsRevertToSSMBehavior is a function called by the OS to revert the<BR> SIL's behavior to the most recent behavior requested by the SMC's system<BR> state machine. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>LSSB</code>
+<td align="middle"><code>{lso</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>ui8LmsSetBehavior is a function called by the OS to override the SIL's<BR> behavior.  The calling parameters must conform to the<BR> LmsOverrideBehavior struct. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>LSSE</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_RW</code>
+<td align="left"><code><pre>gfLmsMaxBrightScalingEnabled lets diagnotics enable and<BR> disable the SIL's per-unit max brightness scaling.  This flag will<BR> normally be 1 (i.e, TRUE), which enables per-unit scaling.  Set this<BR> flag to 0 (FALSE) to disable per-unit scaling.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>LSSS</code>
+<td align="middle"><code>{lso</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>ui8LmsSetSSMBehavior is a function called by the OS to<BR> override the SIL's behavior while pretending to be the SMC's System<BR> State Machine (host software should normally use LSSB instead of this<BR> special-purpose key).  The calling parameters must conform to the<BR> LmsOverrideBehavior struct. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>LSSV</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_RW</code>
+<td align="left"><code><pre>gui16LmsMaxBrightScale holds the SIL's per-unit max <BR> brightness scale value.  A value of 0xFFFF indicates that no scaling<BR> will be done for this particular unit.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>LSUP</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>ui8LmsUpdateBehaviorParams is a function called by the SIL tuning<BR> application to force an update of the SIL's behavior parameters at the<BR> user's implicit request (i.e., after the user updates underlying data<BR> that affects the behavior params). <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MACA</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Memory Address Cycle Address. Sets the address for subsequent MACR calls </code>
+</tr>
+<tr>
+<td align="middle"><code>MACM</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Memory Address Cycle Mode. Sets the addressing mode for MACR calls. Defaults to auto-incrementing </code>
+</tr>
+<tr>
+<td align="middle"><code>MACR</code>
+<td align="middle"><code>ch8*</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code><pre>Memory Address Cycle Read. Reads 32 bytes from SMC @ address pointed to by MACA. Restricted to EPM address range. If<BR> MACM==1 then MACA will be incremented by 32 bytes at the completion of the read. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MOCF</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>MOtion sensor (SMS) Configuration register </code>
+</tr>
+<tr>
+<td align="middle"><code>MOCN</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>MOtion sensor (SMS) Control register - enables accelerometer and threshold testing</code>
+</tr>
+<tr>
+<td align="middle"><code>MSAL</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> KWPRIV_FUNC_RW</code>
+<td align="left"><code><pre>Allows control of the thermal routine's behavior for debug and testing purposes.<BR>7 - Unused<BR>6 - Plimits enabled.  0 => thermal routine will not send plimits, but<BR>    all other thermal code is still active.  1 => routine sends plimits<BR>    normally, assuming routine is active.<BR>5 - Unused  <BR>4 - Unused  <BR>3 - Thermal Subsystem Operating Normally, read-only.  If this bit is 1,<BR>    the SMC's thermal subsystem is operating normally.  If it is 0, then<BR>    the thermal code is disabled, fans are set to max RPM, and plimits<BR>    are all set to max.  On systems that require a throttle selector<BR>    table in the UV EPM block, this bit will be set to 0 if the throttle<BR>    selector table is invalid or is missing.<BR>2 - Valid current/power calibration coefficients in UV EPM block,<BR>    read-only.<BR>1 - Prochot Enable<BR>0 - Thermtrip Enable <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MSAc</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Returns the average CPU PLIMIT sent by the SMC, DIAG_LOG   </code>
+</tr>
+<tr>
+<td align="middle"><code>MSAg</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Returns the average GPU PLIMIT sent by the SMC, DIAG_LOG   </code>
+</tr>
+<tr>
+<td align="middle"><code>MSAm</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Returns the average MEM PLIMIT sent by the SMC, DIAG_LOG   </code>
+</tr>
+<tr>
+<td align="middle"><code>MSC0</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSC1</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSC2</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSC3</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCP</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Total number of sub samples to calibrate with </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCR</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Total number of sub samples to calibrate with  </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCS</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code>Calibration Start key - Writing a value of 0x11 to this key will begin  </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCT</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Total number of samples to calibrate with </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCa</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCb</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCc</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCd</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCl</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCm</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCn</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSCo</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Calibration key </code>
+</tr>
+<tr>
+<td align="middle"><code>MSDI</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code><pre>Indicates whether an optical disk has been inserted in the<BR> optical disk drive (1) or the drive is empty (0).  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MSDW</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>ui8SSMDisplayWakeSleep is a function called by the OS to notify the SMC<BR> that the display is now awake (i.e., on) or asleep (i.e. off), so that<BR> the SMC can set the correct behavior for the Status Indicator Light.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MSHA</code>
+<td align="middle"><code>fp79</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Average HDD activity (range 0 to 1) in U7.9 format.  </code>
+</tr>
+<tr>
+<td align="middle"><code>MSLD</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>Returns the current Lid Switch state  </code>
+</tr>
+<tr>
+<td align="middle"><code>MSPA</code>
+<td align="middle"><code>fp6a</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Average count of prochot assertions between 0 and 1 in 6.10 format, DIAG_LOG. </code>
+</tr>
+<tr>
+<td align="middle"><code>MSPC</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_RW</code>
+<td align="left"><code>reads and writes the number of available "Power states" for the CPU. </code>
+</tr>
+<tr>
+<td align="middle"><code>MSPS</code>
+<td align="middle"><code>{msp</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code><pre>Returns the current (enumerated) system power state exported by the <BR> SMC's System State Machine.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MSSD</code>
+<td align="middle"><code>si8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_RW</code>
+<td align="left"><code><pre>Stores the last known Shut-down cause.<BR> STOP_CAUSE_SHUTDOWN_GOOD_CODE        5<BR> STOP_CAUSE_SLEEP_GOOD_CODE           5<BR> STOP_CAUSE_POWERKEY_GOOD_CODE        3<BR> SLEEP_CAUSE_SLEEP_LOWBATT_CODE       2     // Deprecated. Use STOP_CAUSE_LOWBATT<BR> SLEEP_CAUSE_SLEEP_OVERTEMP_CODE      1     // Deprecated. Use appropriate STOP_CAUSE_TEMP*<BR> STOP_CAUSE_INIT_CODE                 0     // Initial code<BR> STOP_CAUSE_HEALTHCHECK_CODE          -1    // 0xFF<BR> STOP_CAUSE_PS_CODE                   -2    // 0xFE<BR> STOP_CAUSE_TEMP_MULTISLEEP_CODE      -3    // 0xFD<BR> STOP_CAUSE_SENSORFAN_CODE            -4    // 0xFC<BR> STOP_CAUSE_TEMP_OVERLIMITTO_CODE     -30   // 0xE2<BR> STOP_CAUSE_PSWRSMRST_CODE            -40   // 0xD8<BR> STOP_CAUSE_UNMAPPED_CODE             -50   // 0xCE Deprecated because it should never occur<BR> STOP_CAUSE_LOWBATT_CODE              -60   // 0xC4<BR> STOP_CAUSE_NINJA_SHUTDOWN_CODE       -61   // 0xFF<BR> STOP_CAUSE_NINJA_RESTART_CODE        -62   // 0xC2<BR> STOP_CAUSE_TEMP_PALM_CODE            -70   // 0xBA<BR> STOP_CAUSE_TEMP_SODIMM_CODE          -71   // 0xB9<BR> STOP_CAUSE_TEMP_HEATPIPE_CODE        -72   // 0xB8<BR> STOP_CAUSE_TEMP_BATT_CODE            -74   // 0xB6<BR> STOP_CAUSE_ADAPTERTO_CODE            -75   // 0xB5<BR> STOP_CAUSE_TEMP_MANUAL_CODE          -77   // 0xB3 Not currently used.<BR> STOP_CAUSE_CURRENT_ADAPTER_CODE      -78   // 0xB2<BR> STOP_CAUSE_CURRENT_BATT_CODE         -79   // 0xB1<BR> STOP_CAUSE_TEMP_SKIN_CODE            -82   // 0xAE<BR> STOP_CAUSE_TEMP_BACKUP_CODE          -84   // 0xAC<BR> STOP_CAUSE_TEMP_SKIN_BOTHBAD_CODE    -83   // 0xAB Will die with M57, M59, M75, M76<BR> STOP_CAUSE_TEMP_CPUPROX_CODE         -86   // 0xAA<BR> STOP_CAUSE_TEMP_CPU_CODE             -95   // 0xA1<BR> STOP_CAUSE_TEMP_PS_CODE              -100  // 0x9C<BR> STOP_CAUSE_TEMP_LCD_CODE             -101  // 0x9B<BR> STOP_CAUSE_RSM_POWER_FAIL_CODE       -102  // 0x9A<BR> STOP_CAUSE_BATT_CUV_CODE             -103  // 0x99<BR> STOP_CAUSE_UNKNOWN_CODE              -128  // 0x80 for unknown shutdown cause<BR>  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MSSF</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_FUNC_RW</code>
+<td align="left"><code><pre>Bad fan flag bits. A bit-vector in which each bit position represents a corresponding fan status. The <BR> bit-vector is write-one-to-clear for each fan/bit position <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>MSSP</code>
+<td align="middle"><code>si8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_RW</code>
+<td align="left"><code>Stores the last known Sleep Request cause.  See MSSD for list of causes. </code>
+</tr>
+<tr>
+<td align="middle"><code>MSSS</code>
+<td align="middle"><code>{mss</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>Returns the current (enumerated) state of the SMC's System State Machine </code>
+</tr>
+<tr>
+<td align="middle"><code>MSTC</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>- ScratchPad register that outputs via Tlog so that a script running on the SUT can add to the log what test case was running. </code>
+</tr>
+<tr>
+<td align="middle"><code>MSTM</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code>Returns whether power balancing is enabled or not.  </code>
+</tr>
+<tr>
+<td align="middle"><code>MSTc</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Returns the last CPU PLIMIT sent by the SMC   </code>
+</tr>
+<tr>
+<td align="middle"><code>MSTg</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Returns the last GPU PLIMIT sent by the SMC   </code>
+</tr>
+<tr>
+<td align="middle"><code>MSTm</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Returns the last MEM PLIMIT sent by the SMC   </code>
+</tr>
+<tr>
+<td align="middle"><code>MSWR</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>ui8SSMStartWarmReset is a function called by the OS to notify that SMC <BR> that a warm reset is beginning. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>NATJ</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_RW</code>
+<td align="left"><code><pre>Ninja Action Timer Job.  This job is performed when the Ninja Action Timer<BR> counts down to zero.  Job can be any of:<BR> 0 = Do Nothing<BR> 1 = Force Shutdown to S5<BR> 2 = Force Restart<BR> 3 = Force Startup<BR> 4 = reserved <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>NATi</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Ninja Action Timer.  This timer can be set to the number of seconds before a job<BR> (defined in NATJ) is performed.  Value is in seconds and counts down to zero.  Setting to zero<BR> cancels any previously set timer. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>NTOK</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code>Key for OS X to write to turn on Proprietary Host Notifies. </code>
+</tr>
+<tr>
+<td align="middle"><code>ONMI</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>NMI flag (For OS NMI)  </code>
+</tr>
+<tr>
+<td align="middle"><code>PC0C</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 core power </code>
+</tr>
+<tr>
+<td align="middle"><code>PC0c</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 core power. Raw ADC input value.  </code>
+</tr>
+<tr>
+<td align="middle"><code>PD0R</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC-In MLB S0 rail power </code>
+</tr>
+<tr>
+<td align="middle"><code>PD5R</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC-In MLB S5 rail power </code>
+</tr>
+<tr>
+<td align="middle"><code>PDMR</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC-In MLB Total (S0+S5) power </code>
+</tr>
+<tr>
+<td align="middle"><code>PDTR</code>
+<td align="middle"><code>fpa6</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC-In System Total (S0+S5+LCD+HDD) power </code>
+</tr>
+<tr>
+<td align="middle"><code>PG0R</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU0 rail power </code>
+</tr>
+<tr>
+<td align="middle"><code>PZ0E</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Zone0 average target power (PC0C+PG0R) </code>
+</tr>
+<tr>
+<td align="middle"><code>PZ0G</code>
+<td align="middle"><code>fp88</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Zone0 average power (PC0C+PG0R) </code>
+</tr>
+<tr>
+<td align="middle"><code>RBr </code>
+<td align="middle"><code>ch8*</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code>Source branch </code>
+</tr>
+<tr>
+<td align="middle"><code>REV </code>
+<td align="middle"><code>{rev</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Source revision </code>
+</tr>
+<tr>
+<td align="middle"><code>RMde</code>
+<td align="middle"><code>char</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Mode. What code is currently being executed. 'B'=base flasher, 'U'=update flasher or 'A'=app code </code>
+</tr>
+<tr>
+<td align="middle"><code>RPlt</code>
+<td align="middle"><code>ch8*</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Platform String</code>
+</tr>
+<tr>
+<td align="middle"><code>RSvn</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>SVN database revision </code>
+</tr>
+<tr>
+<td align="middle"><code>RVBF</code>
+<td align="middle"><code>{rev</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code>Base flasher revision </code>
+</tr>
+<tr>
+<td align="middle"><code>RVUF</code>
+<td align="middle"><code>{rev</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_FUNC_R</code>
+<td align="left"><code>Update flasher revision </code>
+</tr>
+<tr>
+<td align="middle"><code>SAS!</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> KWPRIV_VAR_ATOM_RW</code>
+<td align="left"><code><pre>ADC sensor force bits [31:0]. Setting bit(s) will prevent periodic ADC conversion cycle from overwriting<BR> sensor data for selected channels. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SBF </code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code><pre>Bad sensor flags.  One per PID, defined as follows:<BR> PID  Bit   Hex     Dec<BR> ---  ---  ------   ---<BR> CPU   0   0x0001     1<BR> GPU   1   0x0002     2<BR> HDD   2   0x0004     4<BR> ODD   3   0x0008     8<BR> PS    4   0x0010    16<BR> LCD   5   0x0020    32 <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SBFC</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>When a bit has been set by the SMC in SBF key and is then subsequently reset by writing<BR> this key, it will cause the appropriate data elements for the PID to be reset <BR> and the pid will resume normal behaviour if it's sensors are working properly again. <BR> Note that it may take a few minutes for the fans associated with that PID loop to return <BR> to normal speed due to PID loop tuning. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SBFE</code>
+<td align="middle"><code>flag</code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>The state of this flag determines whether vTmBadSensorCheck<BR> will display sensor error codes instead of actual temperatures when it<BR> detects unstable temperatures or temperatures that are below the allowed<BR> minimum.  Defaults to TRUE (displays error codes).<BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SCIA</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_FUNC_RW</code>
+<td align="left"><code>Lpc Base Address for SCIF, default is 0x3F8 </code>
+</tr>
+<tr>
+<td align="middle"><code>SCIL</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_RW</code>
+<td align="left"><code>Set this to 1 to enable SCIF to be LPC slave for EFI debug </code>
+</tr>
+<tr>
+<td align="middle"><code>SCTg</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU Thermal Target Temp </code>
+</tr>
+<tr>
+<td align="middle"><code>SDPE</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Mode bit to enable polling of developmental build sensors. Default state will vary depending on build. </code>
+</tr>
+<tr>
+<td align="middle"><code>SDRd</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>Delayed sensor read. Writing a value in ms will cause the SMC to start a timer which when<BR> expires will cause the SMC to set force bits for polled sensors. This effectively allows a follow on<BR> query to sample the state of the sensors at the desired time. Value in ms. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SGHT</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Sensor Graphics HoT.  1 = GPU Overtemp.  </code>
+</tr>
+<tr>
+<td align="middle"><code>SGTT</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code><pre>GPU Heatsink Throttle Threshold Temperature.  If the GPU's<BR> heatsink temperature exceeds this temperature, the SMC will assert the<BR> GPU's throttle to slow and cool the GPU.  <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SGTg</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU Thermal Target Temp </code>
+</tr>
+<tr>
+<td align="middle"><code>SHTg</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>HDD Thermal Target Temp </code>
+</tr>
+<tr>
+<td align="middle"><code>SIS!</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> KWPRIV_VAR_ATOM_RW</code>
+<td align="left"><code><pre>I2C sensor force bits. Setting bit(s) will prevent periodic<BR> I2C polling cycle overwriting sensor data. This key is intended for<BR> expert use only.  Bit mappings for M72/M78/K2/K3 are as follows:<BR> <BR> Bit   Hex      Dec    Key   Description<BR> ---  ------   -----   ----  ------------<BR>  0   0x0001       1   TC0H  CPU Heatsink<BR>  1   0x0002       2   TG0H  GPU Heatsink<BR>  2   0x0004       4   TH0P  HDD Proximity<BR>  3   0x0008       8   TO0P  ODD Proximity<BR>  4   0x0010      16   Tm0P  MLB Proximity<BR>  5   0x0020      32   TA0P  Ambient<BR>  6   0x0040      64   Tp0P  Power Supply Proximity<BR>  7   0x0080     128   TW0P  Wireless (Airport) Proximity<BR>  8   0x0100     256   TC0P  CPU Proximity<BR>  9   0x0200     512   TC0D  CPU Die<BR> 10   0x0400    1024   TG0P  GPU Proximity<BR> 11   0x0800    2048   TG0D  GPU Die<BR> 12   0x1000    4096   TL0P  LCD Proximity<BR> 13   0x2000    8192   SGTT  GPU Heatsink Throttle Threshold<BR> <BR> Special error codes (used by individual temperature keys, not by SIS!):<BR>  Hex     Dec    Description<BR> ------  -----   -----------<BR> 0x7FE7   127.9  Hot temperature<BR> 0x8400  -124    Unstable temperature<BR> 0x8300  -125    Temperature below allowed minimum<BR> 0x8200  -126    Sensor failed to initialize<BR> 0x8100  -127    Sensor skipped<BR> 0x8000  -128    Temperature can't be read <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SLPT</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LCD Prochot threshold. TL0P temp at which Prochot will be asserted. </code>
+</tr>
+<tr>
+<td align="middle"><code>SLST</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LCD Sleep threshold. TL0P temp at which Sleep will be requested. </code>
+</tr>
+<tr>
+<td align="middle"><code>SLTg</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LCD Fan Temp Target </code>
+</tr>
+<tr>
+<td align="middle"><code>SLTp</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LCD Power Temp Target </code>
+</tr>
+<tr>
+<td align="middle"><code>SOTg</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>ODD Thermal Target Temp </code>
+</tr>
+<tr>
+<td align="middle"><code>SPH0</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_R</code>
+<td align="left"><code>CPU Prochot event count since last boot </code>
+</tr>
+<tr>
+<td align="middle"><code>SPHR</code>
+<td align="middle"><code>ui32</code>
+<td align="middle"><code>4</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code><pre>Any bit set to 1 identifies an active Prochot requestor.<BR> For K2/K3, the following bits are defined:<BR> Bit 31:  User-forced Prochot<BR> Bit 30:  RSVD for "Prochot forever in lieu of Thermtrip" (currently unused)<BR> Bits 4-29:  RSVD<BR> Bit  3:  Prochot Power Index<BR> Bit  2:  Power-supply overcurrent<BR> Bit  1:  Power-supply overtemp<BR> Bit  0:  LCD panel overtemp <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SPHS</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Indicates if PROCHOT was ever set after entering S0, DIAG_LOG </code>
+</tr>
+<tr>
+<td align="middle"><code>SPHT</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code><pre>Current state of all Prochots and whether the SMC itself is<BR> asserting each one.<BR> Bits 0-7:   Prochot state for CPUs 0-7, respectively (1 bit per CPU).<BR>             1 = Prochot asserted.  0 = Prochot deasserted.<BR> Bits 8-15:  The SMC itself is asserting Prochot for CPUs 0-7,<BR>             respectively (1 bit per CPU; bit 8 corresponds to CPU 0,<BR>             bit 15 corresponds to CPU 7).<BR>             1 = SMC is asserting Prochot to that CPU.<BR>             0 = SMC is NOT asserting Prochot to that CPU.<BR> <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SPHZ</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_W</code>
+<td align="left"><code><pre>Drive SMC Prochot(s).  In the single byte of write data,<BR> bits 0 through 7 control the Prochots for CPUs 0 through 7,<BR> respectively.  For example, writing 0x01 sets Prochot for CPU 0, while<BR> writing 0x80 sets Prochot for CPU 7, and writing 0xFF sets all 8<BR> Prochots.  Setting bits for CPUs that don't exist does nothing<BR> and causes no harm.<BR> <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SPS!</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> KWPRIV_VAR_ATOM_RW</code>
+<td align="left"><code><pre>Power force bits. Setting bit(s) will prevent periodic power calculations from overwriting<BR> existing data. Bit mapping varies by platform and is intended for expert use only. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SpCP</code>
+<td align="middle"><code>fps4</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code><pre>Read-only PS I-squared sum Prochot threshold in U27.4 format.<BR> Sample computation:  [(Prochot threshold in watts)/12v]^2 * (Filter depth = 24576)<BR>                      Hex value is the above * 16. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SpCS</code>
+<td align="middle"><code>fps4</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code><pre>Read-only PS I-squared sum target for P3-level PS current control, in U27.4 format.<BR> Sample computation:  [(Target in watts)/12v]^2 * (Filter depth = 24576)<BR>                      Hex value is the above * 16. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SpCT</code>
+<td align="middle"><code>fpc4</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code><pre>Read-only PS I-squared target (non-summed) for initializing PS current control filter history, in U12.4 format.<BR> Sample computation:  [(Target in watts)/12v]^2.<BR>                      Hex value is the above * 16. <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>SpPT</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>PS Prochot threshold. Tp0P temp at which Prochot will be asserted </code>
+</tr>
+<tr>
+<td align="middle"><code>SpST</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>PS Sleep threshold. Tp0P temp at which Sleep will be requested. </code>
+</tr>
+<tr>
+<td align="middle"><code>SpTg</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>PS Fan Temp Target </code>
+</tr>
+<tr>
+<td align="middle"><code>TA0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Ambient temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TC0D</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 die temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TC0H</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 Heatsink temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TC0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 Proximity temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TG0D</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU 0 die temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TG0H</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU 0 Heatsink temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TG0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU 0 Proximity temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TH0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>HardDisk proximity temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TL0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>LCD proximity temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TO0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Optical Drive proximity temp </code>
+</tr>
+<tr>
+<td align="middle"><code>TW0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Airport temp </code>
+</tr>
+<tr>
+<td align="middle"><code>Tm0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Misc Local temp </code>
+</tr>
+<tr>
+<td align="middle"><code>Tp0P</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>Power Supply Proximity temp </code>
+</tr>
+<tr>
+<td align="middle"><code>UPRC</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_CONST</code>
+<td align="left"><code>Type of SMC microcontroller upon which system is based (value of UPROC macro) </code>
+</tr>
+<tr>
+<td align="middle"><code>VC0C</code>
+<td align="middle"><code>fp1f</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 core voltage.  </code>
+</tr>
+<tr>
+<td align="middle"><code>VC0c</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>CPU 0 core voltage. Raw ADC input value.  </code>
+</tr>
+<tr>
+<td align="middle"><code>VD0R</code>
+<td align="middle"><code>fp4c</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC In S0 rail voltage.  </code>
+</tr>
+<tr>
+<td align="middle"><code>VD5R</code>
+<td align="middle"><code>fp4c</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>DC In S5 rail voltage.  </code>
+</tr>
+<tr>
+<td align="middle"><code>VG0R</code>
+<td align="middle"><code>fp4c</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU 0 rail voltage.  </code>
+</tr>
+<tr>
+<td align="middle"><code>VG0r</code>
+<td align="middle"><code>ui16</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_RW</code>
+<td align="left"><code>GPU 0 rail voltage. Raw ADC input value.  </code>
+</tr>
+<tr>
+<td align="middle"><code>dBA0</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Acoustic Reporting. Fan 0 Noise Component (dBA).  </code>
+</tr>
+<tr>
+<td align="middle"><code>dBA1</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Acoustic Reporting. Fan 1 Noise Component (dBA).  </code>
+</tr>
+<tr>
+<td align="middle"><code>dBA2</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Acoustic Reporting. Fan 2 Noise Component (dBA).  </code>
+</tr>
+<tr>
+<td align="middle"><code>dBAH</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Acoustic Reporting. HDD Noise Component (dBDA).  </code>
+</tr>
+<tr>
+<td align="middle"><code>dBAT</code>
+<td align="middle"><code>sp78</code>
+<td align="middle"><code>2</code>
+<td align="left"><code> K_VAR_ATOM_R</code>
+<td align="left"><code>Acoustic Reporting. Total Noise of all calculated components (dBDA).  </code>
+</tr>
+<tr>
+<td align="middle"><code>zDBG</code>
+<td align="middle"><code>ui8 </code>
+<td align="middle"><code>1</code>
+<td align="left"><code> K_FUNC_RW</code>
+<td align="left"><code>Set this to 1 to enable SCIF debug output to USB 0 Port </code>
+</tr>
+<tr>
+<td align="middle"><code>{ala</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>ALS analog lux calculation information.<BR>struct ALSLuxLine {<BR>   UInt16 ui16ALSM;         // Slope of line.<BR>   Int16  i16ALSB;          // Y-Intercept of line.<BR>   UInt16 ui16ALSR;         // Region.<BR>}<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{alc</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>ALSConfig structure contains global ALS configuration and tuning info<BR>struct ALSConfig { <BR>   UInt16 ui16ALSI2CTime;   // Int interval (ms) for ALS I2C task.<BR>   UInt16 ui16ALSADCTime;   // Int interval (ms) for ALS ADC ISR.<BR>   UInt16 ui16LMax;         // Maximum cd/m^2 for SIL.<BR>   UInt16 ui16LMin;         // Minimum cd/m^2 for SIL.<BR>   UInt16 ui16ELow;         // Low room illum threshold (lux).<BR>   UInt16 ui16EHigh;        // High room illum threshold (lux).<BR>   UInt16 ui16Reflect;      // Bezel reflection coefficient.<BR>   UInt8  ui8ALSSensors;    // Actual number of ALS sensors in system.<BR>   UInt8  ui8LidDelay;      // Delay after lid opens (in tenths of seconds)<BR>                            //   during which ALS readings don't affect the <BR>                            //   SIL.<BR>}<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{ali</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>ALSSensor structure contains sensor-specific information for this system<BR>enum ALSType { NoSensor, BS520, TSL2561CS, LX1973A, ISL29003 };<BR><BR>struct ALSSensor {<BR>   enum  ALSType alstALSType;  // Type of sensor.<BR>   Flag  fValidWhenLidClosed;  // TRUE if no lid or if sensor works with<BR>                               // closed lid.  FALSE otherwise.<BR>   Flag  fControlSIL;          // TRUE if the SIL brightness depends on<BR>                               // this sensor's value.  FALSE otherwise.<BR>}<BR> <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{alr</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>ALS analog lux temperature coefficients.<BR>struct ALSTherm {<BR>   Int16 i16ALSTempBase;    // Temperature baseline (deg C, FP16.0)<BR>   UInt16 ui16ALSTempCoefV; // Temperature coeff (ADC Counts/deg C, FP12.4)<BR>   UInt16 ui16ALSTempInflV; // Thermal compensation inflection point voltage<BR>                            //   (ADCCounts, FP16.0)<BR>   Int16 i16ALSTempLow;     // Low temperature boundary (deg C, FP16.0)<BR>   Int16 i16ALSTempHigh;    // High temperature boundary (deg C, FP16.0)<BR>}<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{alt</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>ALS analog lux calculation thresholds.<BR>struct ALSLuxThrsh {<BR>   UInt16 ui16ALSThrshLow;  // ADC threshold while in low gain.<BR>   UInt16 ui16ALSThrshHigh; // ADC threshold while in high gain.<BR>}<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{alv</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>ALSValue structure contains latest ambient light info from 1 sensor<BR>struct ALSValue {<BR>   Flag fValid;                    // If TRUE, data in this struct is valid.<BR>   Flag fHighGain;                 // If TRUE, ui16Chan0/1 are high-gain<BR>                                   // readings.  If FALSE, ui16Chan0/1 are<BR>                                   // low-gain readings.<BR>   UInt16 ui16Chan0;               // I2C channel 0 data or analog(ADC) data.<BR>   UInt16 ui16Chan1;               // I2C channel 1 data.<BR> The following field only exists on systems that send ALS change<BR> notifications to the OS:<BR>   UInt32 ui32RoomLux;             // Room illumination in lux, FP18.14.<BR>}<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{fds</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>Fan Diag description<BR>typedef struct fanTypeDescStruct {<BR>   FanType       type;<BR>   UInt8         ui8Zone;<BR>   LocationType  location;<BR>   UChar         rsvd;   // padding to get us to 16 bytes<BR>   char          strFunction[DIAG_FUNCTION_STR_LEN];<BR>} FanTypeDescStruct;<BR><BR><BR> FAN constants<BR><BR>      +---+<BR>    z/   /|   <BR>    /   / |   <BR>   +---+  |<BR>   |   |  +<BR>  y|   | /<BR>   |   |/<BR>   +---+<BR>     x<BR>             <BR>typedef enum { LEFT_LOWER_FRONT, CENTER_LOWER_FRONT, RIGHT_LOWER_FRONT,<BR>               LEFT_MID_FRONT,   CENTER_MID_FRONT,   RIGHT_MID_FRONT,<BR>               LEFT_UPPER_FRONT, CENTER_UPPER_FRONT, RIGHT_UPPER_FRONT,<BR>               LEFT_LOWER_REAR,  CENTER_LOWER_REAR,  RIGHT_LOWER_REAR,<BR>               LEFT_MID_REAR,    CENTER_MID_REAR,    RIGHT_MID_REAR,<BR>               LEFT_UPPER_REAR,  CENTER_UPPER_REAR,  RIGHT_UPPER_REAR } LocationType;<BR><BR>typedef enum { FAN_PWM_TACH, FAN_RPM, PUMP_PWM, PUMP_RPM, FAN_PWM_NOTACH, EMPTY_PLACEHOLDER } FanType; <BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{lim</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> KPRIV_DESC_STR</code>
+<td align="left"><code><pre>Plimits group is 3 UInt8s:<BR> MSB: Cpu Limit<BR>      Gpu Limit<BR> LSB: Mem Limit<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{lsc</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>LmsConfig structure provides overall system-specific config info for the SIL.<BR> See "{pwm" for details on PWMValue<BR> See "{lsm" for details on LmsScaleMode<BR><BR>struct LmsConfig {<BR>   PWMValue modvBrightnessBreatheMin;     // Breathe dwell PWM setting<BR>   PWMValue modvMaxChangePerTick;         // Max PWM change per 1/152 sec<BR>   UInt16 ui16ScaleConstant;              // Scale constant (1.15 fixed-point<BR>                                          // representation) if not using<BR>                                          //   ALS or TOD scaling<BR>   LmsScaleMode lmsmScaleMode;            // Scale by ALS, TOD, or constant<BR>   UInt8 ui8RampDuration;                 // Ramp length (equals 152 *<BR>                                          //   ramp time in seconds)<BR>   Flag fPowerSwitchOverridesSIL;         // TRUE if pressing the power<BR>                                          //   switch should force the<BR>                                          //   SIL to full brightness<BR>   UInt8 ui8MinTicksToTarget;             // Slow the slew rate so that<BR>                                          //   it takes at least this many<BR>                                          //   ticks to reach the target<BR>                                          //   from the prev PWM value.<BR>}<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{lsd</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre> LmsDwell structures provide dwell fade-up/down configuration<BR>struct LmsDwell {<BR>   UInt16 ui16MidToStartRatio; // Mid-step size / start-step  size<BR>   UInt16 ui16MidToEndRatio;   // Mid-step size / end-step    size<BR>   UInt16 ui16StartTicks;      // # of ticks using start-step size<BR>   UInt16 ui16EndTicks;        // # of ticks using end-step   size<BR>}<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{lsf</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>LmsFlare structures provide flare config for non-breathing fade-up/down<BR> See "{pwm" for details on PWMValue<BR><BR>struct LmsFlare {<BR>   PWMValue modvFlareCeiling;  // Flare algorithm is active below this value.<BR>   PWMValue modvMinChange;     // Minimum rate of change while flaring.<BR>   UInt16   ui16FlareAdjust;   // Smaller value causes stronger flare as<BR>}                              //   PWM value descends below modvFlareCeiling.<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{lsm</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>LmsScaleMode enum<BR>enum LmsScaleMode { kLmsScaleALS,        // Use ALS autoscale<BR>                    kLmsScaleTOD,        // Use TOD autoscale<BR>                    kLmsScaleConst       // Scale only by a constant<BR>                  }<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{lso</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>LmsOverrideBehavior structure provides a means to override the SIL's <BR> behavior.<BR> See "{lss" for details on LmsSelect<BR><BR>struct LmsOverrideBehavior {<BR>   LmsSelect lmssTargetBehavior;  // Enumerated SIL behavior<BR>   Flag fRamp;                    // Set to 1 (LMS_RAMP) for a slew-rate<BR>                                  //   controlled transition.  Set to 0<BR>                                  //   (LMS_NO_RAMP) for a step change.<BR>}<BR> <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{lss</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>LmsSelect behavior enum<BR>enum LmsSelect { kLmsOff,              // SIL off<BR>                 kLmsOn,               // SIL on,        autoscale OK<BR>                 kLmsBreathe,          // SIL breathing, autoscale OK<BR>                 kLmsBrightNoScale     // SIL on bright, no autoscale<BR>                                       //   (for power switch override)<BR>               }<BR><BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{msp</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>SSMPowerState typedef<BR> enum SSMPowerState { SSM_POWER_STATE_S0     = 0,<BR>                     SSM_POWER_STATE_S3     = 1,<BR>                     SSM_POWER_STATE_S4     = 2,<BR>                     SSM_POWER_STATE_S5     = 3,<BR>                     SSM_POWER_STATE_G3_AC  = 4,<BR>                     SSM_POWER_STATE_G3_HOT = 5,<BR>                     SSM_POWER_STATE_QUERY  = 6,<BR>                   }<BR> <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{mss</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>SSMState typedef<BR>enum SSMState { SSM_S0_DISP_WAKE        = 0,<BR>                SSM_S0_DISP_SLEEP       = 1,<BR>                SSM_G3_HOT              = 2,<BR>                SSM_S3_SLEEP            = 3,<BR>                SSM_S4_HIBER            = 4,<BR>                SSM_S5_OFF              = 5,<BR>                SSM_S0_ASP_WAIT         = 6,<BR>                SSM_S0_IMVP_WAIT        = 7,<BR>                SSM_S0_EARLY_DISP_SLEEP = 8,<BR>                SSM_S0_EARLY_DISP_WAKE  = 9,<BR>                SSM_S3_EARLY            = 10,<BR>                SSM_S4_EARLY            = 11,<BR>                SSM_QUERY               = 12,<BR>                SSM_ICH_RST             = 13,<BR>                SSM_G2_BATTERY_DEAD     = 14,<BR>                SSM_G2_POWER_WAIT       = 15,<BR>                SSM_G2_RESET_WAIT       = 16,<BR>                SSM_G3_AC               = 17,<BR>                SSM_G2_ACPWR_WAIT       = 18,<BR>                SSM_G2_ACRST_WAIT       = 19<BR>              }<BR> <BR></pre></code>
+</tr>
+<tr>
+<td align="middle"><code>{pwm</code>
+<td align="middle"><code>\0\0\0\0</code>
+<td align="middle"><code></code>
+<td align="left"><code> K_DESC_STR</code>
+<td align="left"><code><pre>PWMValue typedef<BR>typedef UInt16 PWMValue;<BR>   0xFFFF is full-on, 0x0 is full-off.<BR> <BR></pre></code>
+</tr>
+</table> 
+ <p> 
+ <hr>
